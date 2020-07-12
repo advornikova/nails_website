@@ -1,6 +1,7 @@
 /* Base Elements */
 * {
 	box-sizing: border-box;
+	font-family: 'Varela Round', sans-serif;
 }
 
 body {
@@ -13,6 +14,19 @@ a {
 	text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+form {
+	max-width: 500px;
+	margin: 5px auto;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+  }
+input[type="checkbox"] {
+	margin: 0 4px 8px 0;
+  }
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -20,25 +34,55 @@ a {
 /* ---- Navigation ---- */
 
 .name {
-	margin: 0;
+	font-size: 1.25em;
+	margin: 0 auto;
+	color: white;
+	font-weight: bold;
 }
 
+.name,
+.main-nav li {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.name,
+.main-nav a {
+	text-align: center;
+	padding: 10px 15px;
+	display: block;
+}
+
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.main-nav li {
+	margin-right: -5px;
+}
 /* ---- Layout Containers ---- */
 
 .container {
 	padding-left: 1em;
 	padding-right: 1em;
+	
+	
 }
 
 .main-header {
 	background: linear-gradient(to bottom right, #319ebd, #072b65);
 	padding: 1em 0;
 }
-
-.main-footer {
-	text-align: center;
-	padding: 2em 0;
-	background: #d9e4ea;
+.banner {
+	margin: 0 auto;
+	text-align: justify;
 }
 
 /* ================================= 
@@ -46,9 +90,25 @@ a {
 ==================================== */
 
 @media (min-width: 769px) {
-	.container {
-		width: 70%;
-		max-width: 1000px;
+
+	
+	.container,
+	.banner {
+		width: 80%;
+		max-width: 1150px;
 		margin: 0 auto;
 	}
+
+	.name,
+	.main-nav,
+	.main-nav li {
+		display: inline-block;
+
+	}
+	.name {
+		width: 240px;
+		margin-right: 50px;
+	}
+
 }
+
