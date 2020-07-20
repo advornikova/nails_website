@@ -13,7 +13,7 @@
         <div class="wrap">
             <h1 class="name">Nail Artist Julia</h1>
             <ul class="main-nav">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Price</a></li>
                 <li><a href="#">Appointment</a></li>
@@ -26,27 +26,28 @@
         <fieldset>
             <legend> Manicure</legend>
             
-            <input type="checkbox" id="m_basic" value="manicure" name="basic_price"><label class="light" for="m_basic">Manicure without gel polish - $30</label><br>
-            <input type="checkbox" id="m_gel" value="manicure" name="gel_price"><label class="light" for="m_gel">Manicure with gel polish - $40</label><br>
+            <input type="checkbox" id="m_basic" value="manicure" data-price="30" name="basic_price"><label class="light" for="m_basic">Manicure without gel polish - $30</label><br>
+            <input type="checkbox" id="m_gel" value="manicure" data-price="40" name="gel_price"><label class="light" for="m_gel">Manicure with gel polish - $40</label><br>
 
         </fieldset>
         <fieldset>
             <legend>Pedicure</legend>
             
-            <input type="checkbox" id="p_basic" value="pedicure" name="p_basic_price" ><label class="light" for="p_basic">Pedicure without gel polish - $40</label><br>
-            <input type="checkbox" id="p_gel" value="pedicure" name="p_gel_price"><label class="light" for="p_gel">Pedicure with gel polish - $50</label><br>
+            <input type="checkbox" id="p_basic" value="pedicure" data-price="40" name="p_basic_price" ><label class="light" for="p_basic">Pedicure without gel polish - $40</label><br>
+            <input type="checkbox" id="p_gel" value="pedicure" data-price="50" name="p_gel_price"><label class="light" for="p_gel">Pedicure with gel polish - $50</label><br>
             
         </fieldset>
         <fieldset>
             <legend> Design</legend>
             
-            <input type="checkbox" id="easy" value="design" name="easy_design_price"><label class="light" for="easy">Easy designs - $5</label><br>
-            <input type="checkbox" id="complex" value="design" name="complex_price"><label class="light" for="complex">Complex designs - $10</label><br>
-            <input type="checkbox" id="french" value="design" name="french_price"><label class="light" for="french">French design - $15</label><br>
+            <input type="checkbox" id="easy" value="design" data-price="5" name="easy_design_price"><label class="light" for="easy">Easy designs - $5</label><br>
+            <input type="checkbox" id="complex" value="design" data-price="10" name="complex_price"><label class="light" for="complex">Complex designs - $10</label><br>
+            <input type="checkbox" id="french" value="design" data-price="15" name="french_price"><label class="light" for="french">French design - $15</label><br>
             
         </fieldset>
         <fieldset>
             <legend class="total"> Total Amount</legend>
+            <span id="total">$0.00</span>
         </fieldset>
 
     <script src="JS/price.js"></script>
