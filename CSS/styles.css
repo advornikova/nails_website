@@ -109,6 +109,8 @@ input[type="checkbox"] {
 .banner {
 	margin: 0 auto;
 	text-align: justify;
+	padding-right: 1em;
+	padding-left: 1 em;
 }
 .main-footer {
 	background-color: lightgray;
@@ -117,8 +119,9 @@ input[type="checkbox"] {
 	
 }
 
+
 /* ================================= 
-  Media Queries
+  Media Queries for Navigation
 ==================================== */
 
 @media (min-width: 769px) {
