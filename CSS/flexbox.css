@@ -13,6 +13,7 @@
     .container {
         display: flex;
         flex-wrap: wrap;
+        align-self: center;
         
 	}
 
@@ -29,7 +30,12 @@
 
 @media (min-width: 1025px) {
 
-    .col {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+  }  
+  .col {
         flex-basis: 0;
         padding-right: 1em;
         padding-left: 1em;
