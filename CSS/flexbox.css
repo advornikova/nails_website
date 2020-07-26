@@ -1,7 +1,3 @@
-/* ================================= 
-  Flexbox Sticky Footer
-==================================== */
-
 
 /* ================================= 
   Flexbox Media Queries
@@ -15,7 +11,8 @@
         flex-wrap: wrap;
         align-self: center;
         
-	}
+  }
+  
 
     .col {
         flex: 1 50%;

@@ -1,4 +1,4 @@
-# Project description+
+# Project description
 This website is a portfoio for a nail tech from Russia. It will contain some information about her skills in manicure, pedicure and design using Russian technic with gel polish. 
 
 Link Price on Navigation should open price list in a separate window. Price list has checkboxes, so clients can check services they want to receive and after that total amount for checked items will be displayed at the bottom of the page. 
