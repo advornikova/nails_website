@@ -3,7 +3,7 @@ This website is a portfoio for a nail tech from Russia. It will contain some inf
 
 Link Price on Navigation should open price list in a separate window. Price list has checkboxes, so clients can check services they want to receive and after that total amount for checked items will be displayed at the bottom of the page. 
 
-Following requirements were met for this project:
+Following features were selected for this project:
 
 * A navigation menu that collapses into a responsive mobile-friendly menu;
 * Used Flexbox to rearrange 2 or more content areas on your page as the screen changes sizes;
